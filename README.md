@@ -282,7 +282,7 @@ plataforma.
 - [x] Validação de integridade
 - [x] Registro das evidências
 - [x] Preservação das gravações
-- [ ] Confirmação do encerramento do ambiente AWS
+- [x] Ambiente AWS/Vocareum encerrado automaticamente após 3 horas
 - [x] Publicação permanente no GitHub Pages
 
 ## Conhecimentos adquiridos
