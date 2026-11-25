@@ -1,0 +1,77 @@
+# macOS
+.DS_Store
+
+# Credenciais e configuracoes privadas
+.env
+.env.*
+!.env.example
+!.env.*.example
+.aws/
+.ssh/
+.kube/
+.gcloud/
+credentials.json
+service-account*.json
+secrets.yml
+secrets.yaml
+secrets.json
+.secrets/
+
+# Chaves privadas e certificados
+*.pem
+*.key
+*.p8
+*.p12
+*.pfx
+*.ppk
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+id_ecdsa*
+id_dsa*
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+!*.tfvars.json.example
+*.tfplan
+tfplan
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ansible
+.ansible/
+*.retry
+.vault_pass*
+vault-password*
+
+# Node.js e Python
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Arquivos temporarios
+*.log
+*.tmp
+*.bak
+
+# Maquinas virtuais
+*.vdi
+*.vmdk
+*.vhd
+*.qcow2
+
+# Editores
+.idea/
+.vscode/
