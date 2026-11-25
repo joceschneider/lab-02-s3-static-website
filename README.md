@@ -46,7 +46,7 @@ interativa chamada Minha Jornada Cloud.
 - Git e GitHub
 - Terminal macOS
 - curl
-- GitHub Pages (demonstração permanente planejada)
+- GitHub Pages (demonstração permanente publicada)
 
 ## Arquitetura implementada
 
@@ -258,15 +258,17 @@ Não é necessário instalar bibliotecas adicionais.
 
 ## Demonstração permanente
 
-O GitHub Pages será utilizado para preservar uma
-demonstração funcional do projeto após o encerramento
-do ambiente educacional AWS.
+O projeto está publicado no GitHub Pages, permitindo
+o acesso público ao site independentemente do
+ambiente temporário da AWS.
 
-Endereço planejado:
+- [Acessar site funcional](https://joceschneider.github.io/lab-02-s3-static-website/)
+- [Repositório público](https://github.com/joceschneider/lab-02-s3-static-website)
 
-https://joceschneider.github.io/lab-02-s3-static-website/
+Status: publicação concluída e acesso validado.
 
-Status: publicação pendente.
+O ambiente original foi hospedado no Amazon S3.
+A demonstração permanente utiliza GitHub Pages.
 
 ## Encerramento do ambiente
 
@@ -281,7 +283,7 @@ plataforma.
 - [x] Registro das evidências
 - [x] Preservação das gravações
 - [ ] Confirmação do encerramento do ambiente AWS
-- [ ] Publicação permanente no GitHub Pages
+- [x] Publicação permanente no GitHub Pages
 
 ## Conhecimentos adquiridos
 
